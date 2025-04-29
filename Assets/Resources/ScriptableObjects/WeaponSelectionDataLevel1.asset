@@ -35,5 +35,5 @@ MonoBehaviour:
     selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
       type: 3}
     weaponSprite: {fileID: 21300000, guid: 4d58711f73601ba4f968ecc8a583e767, type: 3}
-    weaponPrefabPath: Weapons/SimpleGun
+    weaponPrefabPath: Weapons/Axe
     weaponName: Axe
