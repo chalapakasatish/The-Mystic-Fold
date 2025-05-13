@@ -23,17 +23,17 @@ MonoBehaviour:
     selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
       type: 3}
     weaponSprite: {fileID: 21300000, guid: dd48f53b291297448851185efd94c880, type: 3}
-    weaponPrefabPath: Weapons/SimpleGun
+    weaponPrefabPath: Weapons/Shield
     weaponName: Shield2
   - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
     selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
       type: 3}
-    weaponSprite: {fileID: 21300000, guid: 15e640a354b581849b6881d257df4a3a, type: 3}
-    weaponPrefabPath: Weapons/SimpleGun
-    weaponName: Sword2
+    weaponSprite: {fileID: 21300000, guid: 6a16c2aa90ed1bb4b897931cca3f6764, type: 3}
+    weaponPrefabPath: Weapons/Heart
+    weaponName: Heart2
   - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
     selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
       type: 3}
     weaponSprite: {fileID: 21300000, guid: 4d58711f73601ba4f968ecc8a583e767, type: 3}
-    weaponPrefabPath: Weapons/SimpleGun
+    weaponPrefabPath: Weapons/Axe
     weaponName: Axe2

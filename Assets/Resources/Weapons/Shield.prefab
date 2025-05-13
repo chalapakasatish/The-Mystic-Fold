@@ -5389,7 +5389,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5978014002527942182}
-  - component: {fileID: 8283710977521847073}
+  - component: {fileID: 6169029642629977424}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -5416,7 +5416,7 @@ Transform:
   - {fileID: 8431485868910823922}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8283710977521847073
+--- !u!114 &6169029642629977424
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5425,7 +5425,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4482989047501060600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7fb9c49099f7f49bcb25d529887e39, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b69cba7acf2f9340a4e3d8b7bee1117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   paperAnimators:

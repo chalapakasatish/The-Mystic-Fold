@@ -5512,7 +5512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5978014002527942182}
-  - component: {fileID: 8283710977521847073}
+  - component: {fileID: 5538040619929262597}
   m_Layer: 0
   m_Name: Heart
   m_TagString: Untagged
@@ -5538,7 +5538,7 @@ Transform:
   - {fileID: 8431485868910823922}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8283710977521847073
+--- !u!114 &5538040619929262597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5547,7 +5547,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4482989047501060600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d7fb9c49099f7f49bcb25d529887e39, type: 3}
+  m_Script: {fileID: 11500000, guid: 25728039ea82ad54786b7bc0c4698b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   paperAnimators:
@@ -10694,7 +10694,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.34, y: 11.19, z: 2.87}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6283014986050992944}
@@ -10945,7 +10945,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: cd556ca1a87147645bde0485b474d5c8, type: 3}
+  - {fileID: 2100000, guid: b9506b9884061e542a47c2534c228d35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
