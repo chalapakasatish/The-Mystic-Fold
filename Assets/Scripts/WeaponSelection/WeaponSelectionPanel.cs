@@ -28,7 +28,7 @@ public class WeaponSelectionPanel : MonoBehaviour
     private void WeaponSlotLayoutGenerate()
     {
         weaponSelectionData = Resources.Load<WeaponSelectionData>("ScriptableObjects/WeaponSelectionDataLevel" + LevelNumber);
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < weaponSelectionData.weaponSlots.Count; i++)
         {
             GameObject WeaponSlotPrefab = Instantiate(Resources.Load<GameObject>("WeaponSlot/WeaponSlot"), Vector3.zero, Quaternion.identity);
             WeaponSlotPrefab.transform.SetParent(weaponSlotLayout.transform);
