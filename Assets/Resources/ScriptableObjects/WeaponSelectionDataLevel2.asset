@@ -28,12 +28,12 @@ MonoBehaviour:
   - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
     selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
       type: 3}
-    weaponSprite: {fileID: 21300000, guid: 464d89687de111348ab23b3cb5ae987e, type: 3}
-    weaponPrefabPath: Weapons/AK47
-    weaponName: AK47
+    weaponSprite: {fileID: 21300000, guid: 58709331a8823494287c510f468ae1a0, type: 3}
+    weaponPrefabPath: Weapons/Kunai
+    weaponName: Kunai
   - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
     selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
       type: 3}
-    weaponSprite: {fileID: 21300000, guid: 4d58711f73601ba4f968ecc8a583e767, type: 3}
-    weaponPrefabPath: Weapons/Axe
-    weaponName: Axe2
+    weaponSprite: {fileID: 21300000, guid: 4bfcbef9f13129c47a56138c73ffb68e, type: 3}
+    weaponPrefabPath: Weapons/Shuriken
+    weaponName: Shuriken
