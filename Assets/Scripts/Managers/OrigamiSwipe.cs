@@ -72,7 +72,8 @@ public class OrigamiSwipe : MonoBehaviour
     private float scrubTime = 0f;
     private Vector3 arrowInitialPos;
     private bool arrowMoving = false;
-    public TextMeshProUGUI ProgressBarText;
+    public TextMeshProUGUI ProgressBarText,stepsText;
+    public int stepsCount;
     public virtual void Start()
     {
         if (tutorialArrow != null)
@@ -85,6 +86,7 @@ public class OrigamiSwipe : MonoBehaviour
         }
 
         PaperNextStep();
+        
     }
 
     private void Update()
@@ -181,6 +183,8 @@ public class OrigamiSwipe : MonoBehaviour
 
     public virtual void PaperNextStep()
     {
+        stepsCount++;
+        stepsText.text = "Steps: " + stepsCount +  "/" + paperAnimators.Count;
         if (paperCount >= paperAnimators.Count)
         {
             if (!hasSpawnedFinalObject && finalObjectPrefab != null)
@@ -203,6 +207,7 @@ public class OrigamiSwipe : MonoBehaviour
             if (i == paperCount)
             {
                 paperAnimators[i].SetActive(true);
+                
             }
             else if (i > paperCount)
             {
