@@ -5,7 +5,7 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    public GameObject weaponSelectionPanel, battleButton;
+    public GameObject weaponSelectionPanel,bookPanel, battleButton;
     private void Awake()
     {
         if (instance == null)
@@ -17,5 +17,10 @@ public class UIManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void OpenBook()
+    {
+        bookPanel.SetActive(false);
+        weaponSelectionPanel.SetActive(true);
     }
 }

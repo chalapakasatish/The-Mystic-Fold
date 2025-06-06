@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90bbdd9c11a54124f8e3ffdf98ddbe15, type: 3}
+  m_Name: WeaponSelectionDataLevel3
+  m_EditorClassIdentifier: 
+  weaponSlots:
+  - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
+    selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
+      type: 3}
+    weaponSprite: {fileID: 21300000, guid: 4483a09dff9fbd442b19377c31aac656, type: 3}
+    weaponPrefabPath: Weapons/RubberHammer
+    weaponName: Rubber Hammer
+  - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
+    selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
+      type: 3}
+    weaponSprite: {fileID: 21300000, guid: 85eae4cc382f180468852a64a5e29212, type: 3}
+    weaponPrefabPath: Weapons/Sword
+    weaponName: Doube Axe
+  - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
+    selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
+      type: 3}
+    weaponSprite: {fileID: 21300000, guid: e48512a3b2f9553469aa33e8d7725c74, type: 3}
+    weaponPrefabPath: Weapons/Kunai
+    weaponName: Holi Gun
+  - backgroundSprite: {fileID: 21300000, guid: 3769a3c41d5c65041b43cb961bd9f6c8, type: 3}
+    selectedTickSprite: {fileID: 21300000, guid: 3c88e0e9a3cb78546bfb5683d1cc46db,
+      type: 3}
+    weaponSprite: {fileID: 21300000, guid: 754e38899b757af499764eb91373b7ce, type: 3}
+    weaponPrefabPath: Weapons/Shuriken
+    weaponName: Knife
